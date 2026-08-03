@@ -29,10 +29,11 @@ Each repository below documents an environment I built and tested myself — the
 - [PKI Secure File Exchange](https://github.com/kdankwa0261/pki-secure-file-exchange) – end-to-end certificate lifecycle, encryption, signatures, CRL validation, and replay protection
 - [Secure Network Devices and VPN](https://github.com/kdankwa0261/secure-network-devices-fortigate-vpn) – FortiGate firewall configuration with site-to-site IPsec tunnels and policy enforcement
 - [Business Continuity and Disaster Recovery](https://github.com/kdankwa0261/business-continuity-disaster-recovery-plan) – business impact analysis, per-function RTO/RPO targets, and a measurable exercise programme
-- [AWS Cloud Infrastructure](https://github.com/kdankwa0261/aws-cloud-deployment-projects) – EC2, custom VPC with segmented subnets, load balancing, auto scaling, and containerised deployment
+- [AWS Enterprise Security Baseline](https://github.com/kdankwa0261/aws-enterprise-security-baseline) – 27 enterprise security and governance patterns as infrastructure as code, implemented twice (CloudFormation/SAM and Terraform), with a tenant workload behind WAF, CloudFront origin lock-down, and SSM-only access
+- [AWS Cloud Fundamentals](https://github.com/kdankwa0261/aws-cloud-deployment-projects) – foundational EC2, custom VPC with segmented subnets, load balancing, auto scaling, and containerised deployment
 
 ## Tooling and Technologies
-Wazuh, Splunk, Elastic/Kibana, Suricata, Nessus, Wireshark, Volatility, Autopsy, FTK Imager, Plaso, Sysmon, FortiGate, OpenSSL, Kali Linux, Nmap, Windows Server, Linux, Docker, AWS, MITRE ATT&CK
+Wazuh, Splunk, Elastic/Kibana, Suricata, Nessus, Wireshark, Volatility, Autopsy, FTK Imager, Plaso, Sysmon, FortiGate, OpenSSL, Kali Linux, Nmap, Windows Server, Linux, Docker, AWS, Terraform, CloudFormation, MITRE ATT&CK
 
 ## Career Direction
 SOC Analyst, Security Operations, Incident Response, Detection Engineering, PKI and IAM, Network Security Engineering
